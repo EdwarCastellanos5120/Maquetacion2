@@ -179,7 +179,7 @@
     margin: 0px auto;
   }
 
-  #lateral inout[type="Text"] {
+  #lateral input[type="Text"] {
     width: 70%;
   }
 }
@@ -272,13 +272,39 @@
     font-size: 13px;
   }
 
-  #articles .data{
-      float: none;
-      margin: -10px;
-      border-radius: 0px;
+  #articles .data {
+    float: none;
+    margin: -10px;
+    border-radius: 0px;
   }
 
-  #articles article h4{
-      margin-top: 20px;
+  #articles article h4 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 391px) {
+  * {
+    margin-left: 4.5px;
+    margin-right: 2.5px;
+  }
+  #banner h1 {
+    font-size: 16px;
+  }
+  #card .category {
+    text-align: center;
+    font-size: 7.5px;
+  }
+  #login input[type="email"],
+  #login input[type="password"] {
+    width: 86%;
+  }
+  #lateral input[type="text"] {
+    width: 85%;
+  }
+
+  #footer #browsers img {
+    width: 11%;
+    padding-bottom: 15px;
   }
 }
